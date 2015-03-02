@@ -35,7 +35,7 @@
 {
     [_grid evolveStep];
     _generationLabel.string = [NSString stringWithFormat:@"%d", _grid.generation];
-    _populationLabel.string = 10
+    _populationLabel.string = @"10";
 }
 
 @end
